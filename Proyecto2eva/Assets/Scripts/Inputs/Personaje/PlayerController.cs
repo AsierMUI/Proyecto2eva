@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     }
 
     #region Input Methods
-    public void OnMove(InputAtcion.CallbackContext context)
+    public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
     }
