@@ -1,57 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Vidas : MonoBehaviour
 {
-    public GameObject[] vidas;
-    private int numvidas = 3;
+    [SerializeField] Image lifeImage;
+    [SerializeField] Sprite[] lifeSprites;
+    public int life;
 
-    private void Start()
+    private void Update()
     {
-        for (int i = 0; i < numvidas; i++)
-        {
-            vidas[i].SetActive(true);
-        }
-    }
-
-    void Update()
-    {
-        
-    }
-    public void DesactivarVida(int indice)
-    {
-        if (indice >= 0 && indice < numvidas)
-        {
-            vidas[indice].SetActive(false);
-        }
+        if (life <= 0) life = 0;
+        LifeUIHandler();
     }
 
-    public void ActivarVida(int indice)
+    void LifeUIHandler()
     {
-        if (indice >= 0 && indice < numvidas)
-        {
-            vidas[indice].SetActive(true);
-        }
+        lifeImage.sprite = lifeSprites[life];
     }
 
-    public void RecibirDaño()
-    {
-        if (numvidas > 0)
-        {
-            numvidas--;
-            DesactivarVida(numvidas);
-        }
-    }
 
-    public void GanarVida()
-    {
-        if (numvidas <vidas.Length)
-        {
-            ActivarVida(numvidas);
-            numvidas++;
-        }
-    }
 
 
 }
