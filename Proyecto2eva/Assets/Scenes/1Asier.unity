@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bc66c1c120cd144981855361a29bc2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 10
+  totalTime: 60
   timerText: {fileID: 1082867618}
 --- !u!1 &294358578
 GameObject:
@@ -418,6 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 554048474}
   - component: {fileID: 554048475}
+  - component: {fileID: 554048476}
   m_Layer: 5
   m_Name: GameplayPanel
   m_TagString: Untagged
@@ -453,6 +454,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554048473}
   m_CullTransparentMesh: 1
+--- !u!114 &554048476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554048473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a353eaabd1ce79b40afe5b73b328d53e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeImage: {fileID: 1521913108}
+  lifeSprites:
+  - {fileID: 1342631338, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
+  - {fileID: 1649307318, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
+  - {fileID: -1085162845, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
+  - {fileID: -1726905525, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
+  life: 0
 --- !u!1 &894560791
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,7 +1407,6 @@ GameObject:
   - component: {fileID: 1521913109}
   - component: {fileID: 1521913108}
   - component: {fileID: 1521913107}
-  - component: {fileID: 1521913110}
   m_Layer: 5
   m_Name: HealthImage
   m_TagString: Untagged
@@ -1411,8 +1430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -72.4, y: -102.2}
-  m_SizeDelta: {x: 400, y: 400}
+  m_AnchoredPosition: {x: -189, y: -64}
+  m_SizeDelta: {x: 337.1241, y: 337.1241}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521913107
 MonoBehaviour:
@@ -1449,9 +1468,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -297024944, guid: 334f04921319d434facf9736d91e0163, type: 3}
+  m_Sprite: {fileID: -1726905525, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1467,20 +1486,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521913105}
   m_CullTransparentMesh: 1
---- !u!114 &1521913110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1521913105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a353eaabd1ce79b40afe5b73b328d53e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vidas:
-  - {fileID: 1521913105}
 --- !u!1 &1593712551
 GameObject:
   m_ObjectHideFlags: 0
