@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f6ee0921fab5fb468c4313b834cee22
+guid: 32577c47553186046902ce7adc06a23c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,46 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -149,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Final 1_0
+      name: Asier Final repasado_0
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bdf995b1110fe045914ae23864860d4
-      internalID: -1815978128
+      spriteID: d182d64fe2fc87b46a69b0335974f8e2
+      internalID: 154978428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_1
+      name: Asier Final repasado_1
       rect:
         serializedVersion: 2
         x: 32
@@ -184,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f34c0bc7a932a46bdd93210cb1e44a
-      internalID: 1985261489
+      spriteID: e13eccc9c41da424688c5645e3c1223a
+      internalID: -1871975222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_2
+      name: Asier Final repasado_2
       rect:
         serializedVersion: 2
         x: 64
@@ -205,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 022a5e666939a3c44b72ec5fda925e9e
-      internalID: 1840857647
+      spriteID: d683d13eea9c97c46849c28336b9e317
+      internalID: 1858829498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_3
+      name: Asier Final repasado_3
       rect:
         serializedVersion: 2
         x: 0
@@ -226,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb194d7afba0524ca2c63b0cd184b01
-      internalID: -1534743130
+      spriteID: 86fcb9f45f9b4194583438f32ffe5dbe
+      internalID: -327432930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_4
+      name: Asier Final repasado_4
       rect:
         serializedVersion: 2
         x: 32
@@ -247,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce75ab5d6e5ca1546bc47fb2aaf54d95
-      internalID: -149899970
+      spriteID: 4adab7a9d70375747991e3dcb8d6760a
+      internalID: -88385647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_5
+      name: Asier Final repasado_5
       rect:
         serializedVersion: 2
         x: 64
@@ -268,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 242feafa74a7f8046acbf5d23614057c
-      internalID: 1332902960
+      spriteID: 0006f7386d7ee634f91df4f8a57501d2
+      internalID: 46479511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_6
+      name: Asier Final repasado_6
       rect:
         serializedVersion: 2
         x: 0
@@ -289,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e43e0384e12cb4a47b014fff59a9e8a8
-      internalID: -812413338
+      spriteID: cc30dd26857a3b04e9a8da4f46b53f75
+      internalID: 1692101830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_7
+      name: Asier Final repasado_7
       rect:
         serializedVersion: 2
         x: 32
@@ -310,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a87c8dbe2fe584ab887604b827b26d
-      internalID: 74236538
+      spriteID: 508c0ff6a10a70e4bb404d4e89ae8e85
+      internalID: -1875063988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_8
+      name: Asier Final repasado_8
       rect:
         serializedVersion: 2
         x: 64
@@ -331,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72cf625a62f6a76478723479865ba663
-      internalID: -1818093618
+      spriteID: b20376f9841cb4342bcf446871d393b0
+      internalID: -640181150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_9
+      name: Asier Final repasado_9
       rect:
         serializedVersion: 2
         x: 0
@@ -352,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12cffd7c5e323944f890da602d79e83b
-      internalID: 525952553
+      spriteID: 06e880f99efe5a640b215e61e80c3f4b
+      internalID: -1663797361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_10
+      name: Asier Final repasado_10
       rect:
         serializedVersion: 2
         x: 32
@@ -373,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d73f019c91347440a81d9b097c1c8b8
-      internalID: -1667990399
+      spriteID: 8d4887e722913bf48bed9cd13267ecc4
+      internalID: 510319745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_11
+      name: Asier Final repasado_11
       rect:
         serializedVersion: 2
         x: 64
@@ -394,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a29f0a6a796696b44aadc2493ed37f72
-      internalID: 638568306
+      spriteID: 233c80681fb6e7f4fa53f5760e0a3db6
+      internalID: -1358640080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_12
+      name: Asier Final repasado_12
       rect:
         serializedVersion: 2
         x: 0
@@ -415,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef6b849ab7382304aae59b3fcdf251fc
-      internalID: -431324181
+      spriteID: 056355998d87b934b981ed098adb434b
+      internalID: -1723973569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_13
+      name: Asier Final repasado_13
       rect:
         serializedVersion: 2
         x: 32
@@ -436,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6615d2f0f83a65479ef5fa205278936
-      internalID: 615094281
+      spriteID: 41d7a293613ee124193ed8a783dc0b9d
+      internalID: -1663414649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_14
+      name: Asier Final repasado_14
       rect:
         serializedVersion: 2
         x: 0
@@ -457,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af014f6d6c35d2f4db484a4ac90c169f
-      internalID: 430773657
+      spriteID: a64890b2e00cc924b88570c990f06c09
+      internalID: -847555326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_15
+      name: Asier Final repasado_15
       rect:
         serializedVersion: 2
         x: 32
@@ -478,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 047c130481342d04e9a3dac2034cdfd0
-      internalID: -83687522
+      spriteID: 90ca7a9521336fd4f834b50116030ed1
+      internalID: -326564283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_16
+      name: Asier Final repasado_16
       rect:
         serializedVersion: 2
         x: 0
@@ -499,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b31b63826f0a724ea4a6d4b9487c2cf
-      internalID: -823906632
+      spriteID: 42b6180ec945aa940a88e7e9710910c5
+      internalID: -746907265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_17
+      name: Asier Final repasado_17
       rect:
         serializedVersion: 2
         x: 32
@@ -520,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ae94cc806132e1498e42f247d9ea1d4
-      internalID: -1876399793
+      spriteID: 85117169182df564cb41ddab1c9557db
+      internalID: 272051076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_18
+      name: Asier Final repasado_18
       rect:
         serializedVersion: 2
         x: 0
@@ -541,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6095594e1c138b84497c683527adc7ea
-      internalID: 1628875673
+      spriteID: dc2f4c0d2389a124e9adc53bcdfbe398
+      internalID: 893661777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Final 1_19
+      name: Asier Final repasado_19
       rect:
         serializedVersion: 2
         x: 32
@@ -562,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84124e83b42cc7b45a6f783dae95a1ae
-      internalID: 1053741776
+      spriteID: 8ec93c92d48961642a33d7cc89878b4b
+      internalID: -355905889
       vertices: []
       indices: 
       edges: []
@@ -579,26 +540,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player Final 1_0: -1815978128
-      Player Final 1_1: 1985261489
-      Player Final 1_10: -1667990399
-      Player Final 1_11: 638568306
-      Player Final 1_12: -431324181
-      Player Final 1_13: 615094281
-      Player Final 1_14: 430773657
-      Player Final 1_15: -83687522
-      Player Final 1_16: -823906632
-      Player Final 1_17: -1876399793
-      Player Final 1_18: 1628875673
-      Player Final 1_19: 1053741776
-      Player Final 1_2: 1840857647
-      Player Final 1_3: -1534743130
-      Player Final 1_4: -149899970
-      Player Final 1_5: 1332902960
-      Player Final 1_6: -812413338
-      Player Final 1_7: 74236538
-      Player Final 1_8: -1818093618
-      Player Final 1_9: 525952553
+      Asier Final repasado_0: 154978428
+      Asier Final repasado_1: -1871975222
+      Asier Final repasado_10: 510319745
+      Asier Final repasado_11: -1358640080
+      Asier Final repasado_12: -1723973569
+      Asier Final repasado_13: -1663414649
+      Asier Final repasado_14: -847555326
+      Asier Final repasado_15: -326564283
+      Asier Final repasado_16: -746907265
+      Asier Final repasado_17: 272051076
+      Asier Final repasado_18: 893661777
+      Asier Final repasado_19: -355905889
+      Asier Final repasado_2: 1858829498
+      Asier Final repasado_3: -327432930
+      Asier Final repasado_4: -88385647
+      Asier Final repasado_5: 46479511
+      Asier Final repasado_6: 1692101830
+      Asier Final repasado_7: -1875063988
+      Asier Final repasado_8: -640181150
+      Asier Final repasado_9: -1663797361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
