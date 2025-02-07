@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9e9c05e72552b8442bae4d8a1b68b0a0
+guid: cf0d1d756733810429b7e4f85a8c5a4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemigo bomba Final_0
+      name: Soldado Grande Final_0
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3af2df643c71bd74c8cd66117d6f83a3
-      internalID: -190213745
+      spriteID: 4ced7817109d7a8469808599573431d6
+      internalID: 420614606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_1
+      name: Soldado Grande Final_1
       rect:
         serializedVersion: 2
         x: 32
@@ -184,14 +184,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7b40a9638aaa14780504bf692e6cf3
-      internalID: 195632308
+      spriteID: 45b12b5fe20f37f4398b5c6d7cbdfc21
+      internalID: 342950266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_2
+      name: Soldado Grande Final_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3e6499e64eb4c47a838fb01c74e693
+      internalID: 2093190206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado Grande Final_3
       rect:
         serializedVersion: 2
         x: 0
@@ -205,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 829900988ea225a4c89257b4a30335dc
-      internalID: 1801274054
+      spriteID: d13a326914037c84b8caeac3a0007adc
+      internalID: 1678724925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_3
+      name: Soldado Grande Final_4
       rect:
         serializedVersion: 2
         x: 32
@@ -226,14 +247,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da7b505b5106a0e4bb4a5bcd48b90aeb
-      internalID: 783476527
+      spriteID: 011d4cfc43729a54397f292ab3721ead
+      internalID: 260747744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_4
+      name: Soldado Grande Final_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b55d58bcdf52b247bf9b30837f91aee
+      internalID: -1623074820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado Grande Final_6
       rect:
         serializedVersion: 2
         x: 0
@@ -247,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdaeafd64e75bb346a1f0ca1f5937513
-      internalID: -983224727
+      spriteID: 0dfa71e8d2245e24385280f06a7bc301
+      internalID: 1039161460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_5
+      name: Soldado Grande Final_7
       rect:
         serializedVersion: 2
         x: 32
@@ -268,14 +310,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c123bb09f54ccb45bd82614e5ebf0b3
-      internalID: 1345725134
+      spriteID: ce77ef4e1c25d1e41a03eb371c861fd4
+      internalID: 222801433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_6
+      name: Soldado Grande Final_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30863e9be2deb3142ab426d4258569d4
+      internalID: -72886471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado Grande Final_9
       rect:
         serializedVersion: 2
         x: 0
@@ -289,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6a97bfdeeb2ea24a81d626187ee4b0f
-      internalID: -1723079931
+      spriteID: f73714be56b12fc49bf3ac6a9b5d22a0
+      internalID: 2104455874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_7
+      name: Soldado Grande Final_10
       rect:
         serializedVersion: 2
         x: 32
@@ -310,14 +373,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed92de465dc0ea418ab39156485a27a
-      internalID: 28584914
+      spriteID: 39412fb0007529448b9a8e1f81704b68
+      internalID: 2074944655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_8
+      name: Soldado Grande Final_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1d35f45aa11f743a4079fde79c24eb
+      internalID: 1523135551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado Grande Final_12
       rect:
         serializedVersion: 2
         x: 0
@@ -331,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e430c40d832a54419536dd8f9fd2235
-      internalID: 2101768411
+      spriteID: 46ae5a659c8101a4aad48bdbd2b07d33
+      internalID: -603290534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_9
+      name: Soldado Grande Final_13
       rect:
         serializedVersion: 2
         x: 32
@@ -352,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0964828a0ef47e4b9333ac80da6955e
-      internalID: -2126694521
+      spriteID: 297157e0d370ceb4bbfa2fd159ed20e1
+      internalID: -1078777467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_10
+      name: Soldado Grande Final_14
       rect:
         serializedVersion: 2
         x: 64
@@ -373,14 +457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3035a1cf62375241acc368cc986be00
-      internalID: 2020733519
+      spriteID: 20ca40260d5c7e642b1e785640cf8065
+      internalID: 1942194740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_11
+      name: Soldado Grande Final_15
       rect:
         serializedVersion: 2
         x: 96
@@ -394,56 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ffffbb659371534cb54b9af52636a3e
-      internalID: 976032168
+      spriteID: 7c07fa816d75b51439f636b7960e1694
+      internalID: -789114661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo bomba Final_12
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea4cfbdd6799ebd428725cd0059dca35
-      internalID: -406388886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemigo bomba Final_13
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59b68126d3b270a4a8c5ae3f3bca45be
-      internalID: 473156493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemigo bomba Final_14
+      name: Soldado Grande Final_16
       rect:
         serializedVersion: 2
         x: 0
@@ -457,8 +499,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e54cf5a92096b1740b1c41606d22ac16
-      internalID: -582456926
+      spriteID: 1dbc8e6ca59b48d498db52dfb5e8f80f
+      internalID: 1910089009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado Grande Final_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b57905cc9454d14186c6ea369f0b74b
+      internalID: 319789189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado Grande Final_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a296e51db67b84584051d58dd0a1a2
+      internalID: -325905051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado Grande Final_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b36da50ba856448a7a6c397c9b1d3f
+      internalID: -1115592816
       vertices: []
       indices: 
       edges: []
@@ -474,21 +579,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemigo bomba Final_0: -190213745
-      Enemigo bomba Final_1: 195632308
-      Enemigo bomba Final_10: 2020733519
-      Enemigo bomba Final_11: 976032168
-      Enemigo bomba Final_12: -406388886
-      Enemigo bomba Final_13: 473156493
-      Enemigo bomba Final_14: -582456926
-      Enemigo bomba Final_2: 1801274054
-      Enemigo bomba Final_3: 783476527
-      Enemigo bomba Final_4: -983224727
-      Enemigo bomba Final_5: 1345725134
-      Enemigo bomba Final_6: -1723079931
-      Enemigo bomba Final_7: 28584914
-      Enemigo bomba Final_8: 2101768411
-      Enemigo bomba Final_9: -2126694521
+      Soldado Grande Final_0: 420614606
+      Soldado Grande Final_1: 342950266
+      Soldado Grande Final_10: 2074944655
+      Soldado Grande Final_11: 1523135551
+      Soldado Grande Final_12: -603290534
+      Soldado Grande Final_13: -1078777467
+      Soldado Grande Final_14: 1942194740
+      Soldado Grande Final_15: -789114661
+      Soldado Grande Final_16: 1910089009
+      Soldado Grande Final_17: 319789189
+      Soldado Grande Final_18: -325905051
+      Soldado Grande Final_19: -1115592816
+      Soldado Grande Final_2: 2093190206
+      Soldado Grande Final_3: 1678724925
+      Soldado Grande Final_4: 260747744
+      Soldado Grande Final_5: -1623074820
+      Soldado Grande Final_6: 1039161460
+      Soldado Grande Final_7: 222801433
+      Soldado Grande Final_8: -72886471
+      Soldado Grande Final_9: 2104455874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
