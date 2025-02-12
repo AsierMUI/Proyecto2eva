@@ -55,33 +55,52 @@ public class PlayerController : MonoBehaviour
         if (isAttacking) return;
 
         movementDirection = movement;
+
         if (movementDirection.sqrMagnitude > 0)
         {
+            animator.SetBool("IsMoving", true);
 
             if (movementDirection.y > 0)
             {
-                animator.SetTrigger(walkUpAnim);
+                animator.SetBool(walkUpAnim, true);
+                animator.SetBool(walkDownAnim, false);
+                animator.SetBool(walkLeftAnim, false);
+                animator.SetBool(walkRightAnim, false);
             }
             else if (movementDirection.y < 0)
             {
-                animator.SetTrigger(walkDownAnim);
+                animator.SetBool(walkUpAnim, false);
+                animator.SetBool(walkDownAnim, true);
+                animator.SetBool(walkLeftAnim, false);
+                animator.SetBool(walkRightAnim, false);
             }
             else if (movementDirection.x < 0)
             {
-                animator.SetTrigger(walkLeftAnim);
+                animator.SetBool(walkUpAnim, false);
+                animator.SetBool(walkDownAnim, false);
+                animator.SetBool(walkLeftAnim, true);
+                animator.SetBool(walkRightAnim, false);
             }
             else if (movementDirection.x > 0)
             {
-                animator.SetTrigger(walkRightAnim);
+                animator.SetBool(walkUpAnim, false);
+                animator.SetBool(walkDownAnim, false);
+                animator.SetBool(walkLeftAnim, false);
+                animator.SetBool(walkRightAnim, true);
             }
         }
-
         else
         {
-            animator.SetTrigger(idleAnim);
+            animator.SetBool("IsMoving", false);
+            animator.SetBool(walkUpAnim, false);
+            animator.SetBool(walkDownAnim, false);
+            animator.SetBool(walkLeftAnim, false);
+            animator.SetBool(walkRightAnim, false);
+            animator.SetBool(idleAnim, true);
+
         }
 
-        if (Input.GetKeyDown(KeyCode.RightAlt))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             HandleAttack();
         }
@@ -90,22 +109,44 @@ public class PlayerController : MonoBehaviour
     private void HandleAttack()
     {
         isAttacking = true;
+        animator.SetBool("IsAttacking", true);
 
         if (movementDirection.y > 0)
         {
-            animator.SetTrigger(attackUpAnim);
+            animator.SetBool(attackUpAnim, true);
+            animator.SetBool(attackDownAnim, false);
+            animator.SetBool(attackLeftAnim, false);
+            animator.SetBool(attackRightAnim, false);
+
         }
         else if (movementDirection.y < 0)
         {
-            animator.SetTrigger(attackDownAnim);
+            animator.SetBool(attackUpAnim, false);
+            animator.SetBool(attackDownAnim, true);
+            animator.SetBool(attackLeftAnim, false);
+            animator.SetBool(attackRightAnim, false);
         }
         else if (movementDirection.x < 0)
         {
-            animator.SetTrigger(attackLeftAnim);
+            animator.SetBool(attackUpAnim, false);
+            animator.SetBool(attackDownAnim, false);
+            animator.SetBool(attackLeftAnim, true);
+            animator.SetBool(attackRightAnim, false);
         }
         else if (movementDirection.x > 0)
         {
-            animator.SetTrigger(attackRightAnim);
+            animator.SetBool(attackUpAnim, false);
+            animator.SetBool(attackDownAnim, false);
+            animator.SetBool(attackLeftAnim, false);
+            animator.SetBool(attackRightAnim, true);
+        }
+        else
+        {
+            animator.SetBool("IsAttacking", false);
+            animator.SetBool(attackUpAnim, false);
+            animator.SetBool(attackDownAnim, false);
+            animator.SetBool(attackLeftAnim, false);
+            animator.SetBool(attackRightAnim, false);
         }
 
         StartCoroutine(AttackCooldown());
@@ -113,7 +154,8 @@ public class PlayerController : MonoBehaviour
 
     private System.Collections.IEnumerator AttackCooldown()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(5f);
+        animator.SetBool("IsAttacking", false);
         isAttacking = false;
     }
 }

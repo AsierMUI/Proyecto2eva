@@ -589,6 +589,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  walkUpAnim: AsierWalkUp
+  walkDownAnim: AsierWalkDown
+  walkLeftAnim: AsierWalkLeft
+  walkRightAnim: AsierWalkRight
+  attackUpAnim: AsierAttackUp
+  attackDownAnim: AsierAttackDown
+  attackLeftAnim: AsierAttackLeft
+  attackRightAnim: AsierAttackRight
+  idleAnim: AsierIdle
 --- !u!61 &341776925
 BoxCollider2D:
   m_ObjectHideFlags: 0
