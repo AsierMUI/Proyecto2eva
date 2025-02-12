@@ -10,11 +10,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerInput playerInput;
     private Vector2 movement;
-    Animator animator;
-    private Vector2 input;
+    private Animator animator;
     private Vector2 movementDirection;
     private bool isAttacking = false;
-
 
     public string walkUpAnim;
     public string walkDownAnim;
@@ -24,7 +22,7 @@ public class PlayerController : MonoBehaviour
     public string attackDownAnim;
     public string attackLeftAnim;
     public string attackRightAnim;
-
+    public string idleAnim;
 
 
     void Start()
@@ -33,11 +31,16 @@ public class PlayerController : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         animator = GetComponent<Animator>();
     }
+
     void Update()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         HandleInputs();
+        MoveCharacter();
+    }
 
+    private void MoveCharacter()
+    {
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
     #region Input Methods
@@ -45,65 +48,72 @@ public class PlayerController : MonoBehaviour
     {
         movement = context.ReadValue<Vector2>();
     }
-
     #endregion
-
 
     private void HandleInputs()
     {
         if (isAttacking) return;
 
-        movementDirection = new Vector2(Input.GetAxis("Horizontal"),
-            Input.GetAxis("Vertical"));
+        movementDirection = movement;
+        if (movementDirection.sqrMagnitude > 0)
+        {
 
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            animator.SetTrigger("WalkUp");
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            animator.SetTrigger("WalkDown");
-        }
-        else if (Input.GetKeyDown(KeyCode.A))
-        {
-            animator.SetTrigger("WalkLeft");
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            animator.SetTrigger("WalkRight");
+            if (movementDirection.y > 0)
+            {
+                animator.SetTrigger(walkUpAnim);
+            }
+            else if (movementDirection.y < 0)
+            {
+                animator.SetTrigger(walkDownAnim);
+            }
+            else if (movementDirection.x < 0)
+            {
+                animator.SetTrigger(walkLeftAnim);
+            }
+            else if (movementDirection.x > 0)
+            {
+                animator.SetTrigger(walkRightAnim);
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.RightAlt)) 
+        else
+        {
+            animator.SetTrigger(idleAnim);
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightAlt))
         {
             HandleAttack();
-
         }
     }
+
     private void HandleAttack()
     {
         isAttacking = true;
+
         if (movementDirection.y > 0)
         {
-            animator.SetTrigger("AttackUp");
+            animator.SetTrigger(attackUpAnim);
         }
         else if (movementDirection.y < 0)
         {
-            animator.SetTrigger("AttackDown");
+            animator.SetTrigger(attackDownAnim);
         }
         else if (movementDirection.x < 0)
         {
-            animator.SetTrigger("AttackLeft");
+            animator.SetTrigger(attackLeftAnim);
         }
         else if (movementDirection.x > 0)
         {
-            animator.SetTrigger("AttackRight");
+            animator.SetTrigger(attackRightAnim);
         }
+
         StartCoroutine(AttackCooldown());
     }
+
     private System.Collections.IEnumerator AttackCooldown()
     {
         yield return new WaitForSeconds(1f);
         isAttacking = false;
     }
-
 }
