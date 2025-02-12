@@ -19881,37 +19881,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7874005135172422559, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1150826005}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf7038280ebac2341ad11663126065b4, type: 3}
---- !u!1 &1150826004 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7874005135172422559, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-  m_PrefabInstance: {fileID: 1150826003}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1150826005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150826004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca1cd4dcb92e8c04ca0bf2e09cb35b11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radioBusqueda: 9
-  capaJugador:
-    serializedVersion: 2
-    m_Bits: 1
-  transformJugador: {fileID: 0}
-  velocidadMovimiento: 2
-  distanciaMaxima: 10
-  puntoInicial: {x: 3.696826, y: 1.103997, z: 0}
-  estadoActual: 0
 --- !u!1 &1174008927
 GameObject:
   m_ObjectHideFlags: 0
