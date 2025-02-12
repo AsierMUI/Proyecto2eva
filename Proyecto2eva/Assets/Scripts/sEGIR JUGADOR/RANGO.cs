@@ -38,6 +38,7 @@ public class RANGO : MonoBehaviour
                 EstadoSiguiendo();
                 break;
             case EstadosMovimiento.Volviendo:
+                Estadovolviendo();
                 break;
 
         }
@@ -72,6 +73,15 @@ public class RANGO : MonoBehaviour
         estadoActual = EstadosMovimiento.Volviendo;
         transformJugador = null;
 }
+
+    private void Estadovolviendo()
+    {
+    transform.position = Vector2.MoveTowards(transform.position, puntoInicial, velocidadMovimiento * Time.deltaTime);
+        if(Vector2.Distance(transform.position, puntoInicial)< 0.1f)
+        {
+            estadoActual = EstadosMovimiento.Esperando;
+        }
+    }
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
