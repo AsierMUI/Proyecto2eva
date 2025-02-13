@@ -95,10 +95,7 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter(Collision colision)
     {
-        if (colision.gameObject.CompareTag("Enemigo"))
-        {
-            SceneManager.LoadScene(11);
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -113,11 +110,7 @@ public class PlayerController : MonoBehaviour
             WinCall();
             collision.gameObject.SetActive(false);
         }
-    }
 
-    private void OnTriggerEnter2D(Collider other)
-    {
-        
     }
     void WinCall()
     {
