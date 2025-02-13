@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerShooting : MonoBehaviour
 {
     public Animator animator;
-    public float shootDuration = 1f;
+    public float shootDuration = 2f;
 
     private bool isShooting = false;
 
@@ -20,7 +20,7 @@ public class PlayerShooting : MonoBehaviour
     private IEnumerator Shoot()
     {
         isShooting = true;
-        animator.SetTrigger("Shoot");
+        animator.SetTrigger("Attacking");
 
 
         yield return new WaitForSeconds(shootDuration);
