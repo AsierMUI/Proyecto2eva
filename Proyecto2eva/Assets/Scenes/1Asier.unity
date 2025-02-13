@@ -492,6 +492,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294358578}
   m_CullTransparentMesh: 1
+--- !u!1 &342961147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7874005135172422559, guid: cf7038280ebac2341ad11663126065b4, type: 3}
+  m_PrefabInstance: {fileID: 2935242405388345193}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &554048473
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,13 +555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a353eaabd1ce79b40afe5b73b328d53e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeImage: {fileID: 1521913108}
-  lifeSprites:
-  - {fileID: 1342631338, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
-  - {fileID: 1649307318, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
-  - {fileID: -1085162845, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
-  - {fileID: -1726905525, guid: 67a01881bbfac704b915c43c4fd1b660, type: 3}
-  life: 0
 --- !u!1 &894560791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,6 +2615,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7874005135172422559, guid: cf7038280ebac2341ad11663126065b4, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2635,6 +2637,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1192606428497618191, guid: 18e51f1c6596e25478775cec9e13a818, type: 3}
+      propertyPath: winGoal
+      value: 
+      objectReference: {fileID: 342961147}
+    - target: {fileID: 1192606428497618191, guid: 18e51f1c6596e25478775cec9e13a818, type: 3}
+      propertyPath: winPoints
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192606428497618191, guid: 18e51f1c6596e25478775cec9e13a818, type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1597824618}
+    - target: {fileID: 1192606428497618191, guid: 18e51f1c6596e25478775cec9e13a818, type: 3}
+      propertyPath: currentPoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4745598583837873226, guid: 18e51f1c6596e25478775cec9e13a818, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

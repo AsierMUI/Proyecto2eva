@@ -93,10 +93,6 @@ public class PlayerController : MonoBehaviour
     {
         isAttacking = false;
     }
-    private void OnTriggerEnter(Collision colision)
-    {
-        
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
