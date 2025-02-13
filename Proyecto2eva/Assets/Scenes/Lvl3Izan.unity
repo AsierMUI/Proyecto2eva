@@ -25855,7 +25855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a947e2ef40c6af84791cbfd7e9802e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1972472581}
   smoothSpeed: 1
   offset: {x: 0, y: 0, z: -5}
 --- !u!1 &1490284817
@@ -31757,6 +31757,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!4 &1972472581 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4745598583837873226, guid: 18e51f1c6596e25478775cec9e13a818, type: 3}
+  m_PrefabInstance: {fileID: 620857802}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1982959625
 GameObject:
   m_ObjectHideFlags: 0
