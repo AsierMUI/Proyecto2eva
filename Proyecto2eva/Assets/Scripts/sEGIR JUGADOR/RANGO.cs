@@ -70,26 +70,26 @@ public class RANGO : MonoBehaviour
         {
             return;
         }
-    
 
-    transform.position = Vector2.MoveTowards(transform.position, transformJugador.position, velocidadMovimiento* Time.deltaTime);
+
+        transform.position = Vector2.MoveTowards(transform.position, transformJugador.position, velocidadMovimiento * Time.deltaTime);
 
         GirarAObjetivo(transformJugador.position);
 
-    if (Vector2.Distance(transform.position, puntoInicial) > distanciaMaxima ||
-        Vector2.Distance(transform.position, transformJugador.position) > distanciaMaxima)
+        if (Vector2.Distance(transform.position, puntoInicial) > distanciaMaxima ||
+            Vector2.Distance(transform.position, transformJugador.position) > distanciaMaxima)
 
-        estadoActual = EstadosMovimiento.Volviendo;
+            estadoActual = EstadosMovimiento.Volviendo;
         transformJugador = null;
-}
+    }
 
     private void Estadovolviendo()
     {
-    transform.position = Vector2.MoveTowards(transform.position, puntoInicial, velocidadMovimiento * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, puntoInicial, velocidadMovimiento * Time.deltaTime);
 
         GirarAObjetivo(puntoInicial);
 
-        if(Vector2.Distance(transform.position, puntoInicial)< 0.1f)
+        if (Vector2.Distance(transform.position, puntoInicial) < 0.1f)
         {
             estadoActual = EstadosMovimiento.Esperando;
         }
