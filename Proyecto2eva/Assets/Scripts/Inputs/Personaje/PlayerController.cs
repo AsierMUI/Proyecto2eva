@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,7 +16,15 @@ public class PlayerController : MonoBehaviour
     private float movimientoY;
     private bool isAttacking;
 
-  
+    public int currentPoints;
+    public int winPoints;
+    public GameObject winGoal;
+
+
+    public SceneChanger sceneManager;
+    public int sceneToLoad;
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -34,6 +43,10 @@ public class PlayerController : MonoBehaviour
 
         Movimiento();
         MoveCharacter();
+
+
+        if(currentPoints <0) { currentPoints = 0;}
+        if (currentPoints >= winPoints) { winGoal.SetActive(true); }
     }
 
     private void MoveCharacter()
@@ -69,5 +82,29 @@ public class PlayerController : MonoBehaviour
     {
         isAttacking = false;
     }
+    private void OnTriggerEnter(Collision colision)
+    {
+        if (colision.gameObject.CompareTag("Enemigo"))
+        {
+            SceneManager.LoadScene(11);
+        }
+    }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("PickUp"))
+        {
+            currentPoints += 1;
+            other.gameObject.SetActive(false);
+        }
+        if(other.gameObject.CompareTag("Finish"))
+        {
+            WinCall();
+            other.gameObject.SetActive(false);
+        }
+    }
+    void WinCall()
+    {
+        sceneManager.SceneLoader(sceneToLoad);
+    }
 }
