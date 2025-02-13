@@ -8,4 +8,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 85d70a1bf4632ec48a358b44cb22dc29
+  - enabled: 1
+    path: Assets/Scenes/Lvl1Asier.unity
+    guid: b4bd2793b16608546906909eb6aa6a66
+  - enabled: 1
+    path: Assets/Scenes/Lvl2Asier.unity
+    guid: c3a0d99f934660d488b7f82270313079
+  - enabled: 1
+    path: Assets/Scenes/Lvl3Asier.unity
+    guid: 8cbca1e777e419844b3b96640d0b3584
+  - enabled: 1
+    path: Assets/Scenes/Lvl1izan.unity
+    guid: 514da84398b0ca04a8a5cdf8463873b2
+  - enabled: 1
+    path: Assets/Scenes/Lvl2Izan.unity
+    guid: 397d3a734e96ae64a85e260ec3171023
+  - enabled: 1
+    path: Assets/Scenes/Lvl3Izan.unity
+    guid: ceede9d6f55b8414b8a5ce5a51836891
+  - enabled: 1
+    path: Assets/Scenes/Muerte.unity
+    guid: bfb2b42c02534bd41becd094e3e01167
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 9e0ae304eeecd084ea74f62331ca0768
   m_configObjects: {}
