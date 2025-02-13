@@ -65,8 +65,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: MovimientoX
     m_Mirror: 0
-  m_BlendParameter: MovimientoX
-  m_BlendParameterY: MovimientoY
+  m_BlendParameter: UltimoX
+  m_BlendParameterY: UltimoY
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
@@ -265,7 +265,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Attack
+  - m_Name: Attacking
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -393,7 +393,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Attacking
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3180372811755097011}
   m_Solo: 0
