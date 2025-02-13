@@ -101,18 +101,23 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(other.gameObject.CompareTag("PickUp"))
+        if (collision.gameObject.CompareTag("PickUp"))
         {
             currentPoints += 1;
-            other.gameObject.SetActive(false);
+            collision.gameObject.SetActive(false);
         }
-        if(other.gameObject.CompareTag("Finish"))
+        if (collision.gameObject.CompareTag("Finish"))
         {
             WinCall();
-            other.gameObject.SetActive(false);
+            collision.gameObject.SetActive(false);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider other)
+    {
+        
     }
     void WinCall()
     {
