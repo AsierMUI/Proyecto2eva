@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3541113320171650258}
   - component: {fileID: 4590190499177918116}
   - component: {fileID: 5280514170154024900}
+  - component: {fileID: 191891290037206368}
   m_Layer: 0
   m_Name: Enemigo bomba
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7874005135172422559}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6968255, y: 1.1039975, z: 0}
+  m_LocalPosition: {x: 3.69, y: 1.1039975, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -165,7 +166,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.12838387, y: -0.23905921}
@@ -178,7 +179,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7874005135172422559}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca1cd4dcb92e8c04ca0bf2e09cb35b11, type: 3}
   m_Name: 
@@ -186,9 +187,27 @@ MonoBehaviour:
   radioBusqueda: 10
   capaJugador:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
   transformJugador: {fileID: 0}
   velocidadMovimiento: 2
   distanciaMaxima: 15
   puntoInicial: {x: 3.696826, y: 1.103997, z: 0}
+  mirandoDerecha: 0
+  rb2D: {fileID: 3541113320171650258}
+  animator: {fileID: 5723170558199425363}
   estadoActual: 0
+--- !u!114 &191891290037206368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7874005135172422559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0e3493d7b1b9c4eab399c4bed5acbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  detectionRadius: 5
+  speed: 2

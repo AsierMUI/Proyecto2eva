@@ -153,6 +153,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &476863005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3933241432719055894, guid: 13c9fb11109880a48ae09bcfed67ce3f, type: 3}
+  m_PrefabInstance: {fileID: 1664598489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &983613243
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,16 +295,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!50 &998825592 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 3541113320171650258, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-  m_PrefabInstance: {fileID: 1781143728}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &998825593 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5723170558199425363, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-  m_PrefabInstance: {fileID: 1781143728}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1499358500
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1027841231387842210, guid: 13c9fb11109880a48ae09bcfed67ce3f, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3933241432719055894, guid: 13c9fb11109880a48ae09bcfed67ce3f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -400,6 +395,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 191891290037206368, guid: cf7038280ebac2341ad11663126065b4, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 476863005}
     - target: {fileID: 676304685067669333, guid: cf7038280ebac2341ad11663126065b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.69
@@ -440,22 +439,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5280514170154024900, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-      propertyPath: rb2D
-      value: 
-      objectReference: {fileID: 998825592}
-    - target: {fileID: 5280514170154024900, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 998825593}
-    - target: {fileID: 5280514170154024900, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-      propertyPath: mirandoDerecha
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5280514170154024900, guid: cf7038280ebac2341ad11663126065b4, type: 3}
-      propertyPath: capaJugador.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 7874005135172422559, guid: cf7038280ebac2341ad11663126065b4, type: 3}
       propertyPath: m_Name
       value: Enemigo bomba
@@ -472,5 +455,5 @@ SceneRoots:
   - {fileID: 983613246}
   - {fileID: 1499358501}
   - {fileID: 16492249}
-  - {fileID: 1781143728}
   - {fileID: 1664598489}
+  - {fileID: 1781143728}
