@@ -20922,6 +20922,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5280514170154024900, guid: cf7038280ebac2341ad11663126065b4, type: 3}
+      propertyPath: capaJugador.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7874005135172422559, guid: cf7038280ebac2341ad11663126065b4, type: 3}
       propertyPath: m_Name
       value: Enemigo bomba

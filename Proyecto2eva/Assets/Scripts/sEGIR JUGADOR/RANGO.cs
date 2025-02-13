@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEditor.ShaderGraph.Drawing;
 using UnityEngine;
 
@@ -12,6 +13,8 @@ public class RANGO : MonoBehaviour
     public float velocidadMovimiento;
     public float distanciaMaxima;
     public Vector3 puntoInicial;
+
+    public bool mirandoDerecha;
 
     public EstadosMovimiento estadoActual;
     public enum EstadosMovimiento
@@ -82,6 +85,17 @@ public class RANGO : MonoBehaviour
             estadoActual = EstadosMovimiento.Esperando;
         }
     }
+
+    private void GirarAObjetivo(Vector3 objetivo)
+    {
+        if (objetivo.x > transform.position.x && !mirandoDerecha)
+        {
+        }
+        else if (objetivo.x < transform.position.x && mirandoDerecha)
+        { 
+        }
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
