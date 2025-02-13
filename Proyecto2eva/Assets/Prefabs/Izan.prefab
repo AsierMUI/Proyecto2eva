@@ -253,3 +253,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  currentPoints: 0
+  winPoints: 3
+  winGoal: {fileID: 0}
+  sceneManager: {fileID: 0}
+  sceneToLoad: 0

@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private float movimientoX;
     private float movimientoY;
-    private bool isAttacking;
+    private bool isAttacking = false;
     private Vector2 ultimaDireccion;
     bool isWalking = false;
 
@@ -41,7 +41,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightAlt))
         {
             animator.SetTrigger("Attacking");
-            isAttacking = true;
         }
 
         Movimiento();
@@ -82,6 +81,7 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("UltimoX", movimientoX);
             animator.SetFloat("UltimoY", movimientoY);
             Vector3 vector3 = Vector3.left * ultimaDireccion.x + Vector3.down * ultimaDireccion.y;
+            FinAtaque();
         }
         else if (movimientoX != 0 || movimientoY != 0)
         {
