@@ -1,26 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+using UnityEditor.Build.Content;
 
-public class Vidas : MonoBehaviour
+public class HUD : MonoBehaviour
 {
-    [SerializeField] Image lifeImage;
-    [SerializeField] Sprite[] lifeSprites;
-    public int life;
-
-    private void Update()
+    public TextMeshProUGUI puntos;
+    void Update()
     {
-        if (life <= 0) life = 0;
-        LifeUIHandler();
+        puntos.text = GameManager.Instance.PuntosTotales.ToString();
     }
-
-    void LifeUIHandler()
+    public void ActualizarPuntos(int puntosTotales)
     {
-        lifeImage.sprite = lifeSprites[life];
+        puntos.text = puntosTotales.ToString();
     }
-
-
-
-
 }
+
+
+
+
+
