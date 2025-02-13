@@ -9,18 +9,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 85d70a1bf4632ec48a358b44cb22dc29
   - enabled: 1
-    path: Assets/Scenes/Lvl1.unity
+    path: Assets/Scenes/Lvl1Asier.unity
     guid: 90d4026e00e199040b34520d1217758c
   - enabled: 1
-    path: Assets/Scenes/Lvl2.unity
-    guid: 844e417a129bf494f942e03ddd7c8023
+    path: Assets/Scenes/Lvl2Asier.unity
+    guid: b4bd2793b16608546906909eb6aa6a66
   - enabled: 1
-    path: Assets/Scenes/Lvl3.unity
-    guid: 06866c2434422ec469023f114ca1404c
+    path: Assets/Scenes/Lvl3Asier.unity
+    guid: 9e152ce89152b9a42b4cab15142bb46a
   - enabled: 1
-    path: Assets/Scenes/Muerte.unity
-    guid: bfb2b42c02534bd41becd094e3e01167
+    path: Assets/Scenes/Lvl1Izan.unity
+    guid: 351e6e1b738896e49adc2e52a4c99159
+  - enabled: 1
+    path: Assets/Scenes/Lvl2Izan.unity
+    guid: 5ce058aa404b54a4cbde97cbcca93bc2
+  - enabled: 1
+    path: Assets/Scenes/Lvl3Izan.unity
+    guid: 4ebff866efe41394cb7c1e2f35098e37
+  - enabled: 1
+    path: Assets/Scenes/Lvl1Amongus.unity
+    guid: 3b2a2ff9b0d7c6844a1d7c1991d45e27
+  - enabled: 1
+    path: Assets/Scenes/Lvl2Amongus.unity
+    guid: cfc3c0e879dea994aa6fc740ea312730
+  - enabled: 1
+    path: Assets/Scenes/Lvl3amongus.unity
+    guid: d114c231d353777408ca315c6b6f30b2
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 9e0ae304eeecd084ea74f62331ca0768
+  - enabled: 1
+    path: Assets/Scenes/Muerte.unity
+    guid: bfb2b42c02534bd41becd094e3e01167
   m_configObjects: {}
