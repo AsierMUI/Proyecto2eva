@@ -24880,7 +24880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bc66c1c120cd144981855361a29bc2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 60
+  totalTime: 400
   timerText: {fileID: 2113400421}
 --- !u!1 &1776635611
 GameObject:
@@ -36370,7 +36370,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 60772d22d7195bd4fbecc1a7e3cb63aa, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
