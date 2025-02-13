@@ -8,6 +8,7 @@ public class enemy : MonoBehaviour
     public Transform player;
     public float detectionRadius = 5.0F;
     public float speed = 2.0f;
+    private Animator animator;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -16,6 +17,7 @@ public class enemy : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -44,9 +46,8 @@ public class enemy : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
-
-            SceneManager.LoadScene(6);
-            gameObject.SetActive(false);
+            animator.SetTrigger("Explosion");
+            SceneManager.LoadScene(5);
         }
     }
 }
