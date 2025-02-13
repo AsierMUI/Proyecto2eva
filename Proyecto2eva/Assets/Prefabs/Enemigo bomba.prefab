@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 5723170558199425363}
   - component: {fileID: 3541113320171650258}
   - component: {fileID: 4590190499177918116}
-  - component: {fileID: 5280514170154024900}
   - component: {fileID: 191891290037206368}
+  - component: {fileID: 615095335482527984}
   m_Layer: 0
   m_Name: Enemigo bomba
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,30 +172,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.12838387, y: -0.23905921}
   m_Size: {x: 1.4890785, y: 2.188548}
   m_Direction: 0
---- !u!114 &5280514170154024900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7874005135172422559}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca1cd4dcb92e8c04ca0bf2e09cb35b11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radioBusqueda: 10
-  capaJugador:
-    serializedVersion: 2
-    m_Bits: 64
-  transformJugador: {fileID: 0}
-  velocidadMovimiento: 2
-  distanciaMaxima: 15
-  puntoInicial: {x: 3.696826, y: 1.103997, z: 0}
-  mirandoDerecha: 0
-  rb2D: {fileID: 3541113320171650258}
-  animator: {fileID: 5723170558199425363}
-  estadoActual: 0
 --- !u!114 &191891290037206368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,3 +187,18 @@ MonoBehaviour:
   player: {fileID: 0}
   detectionRadius: 5
   speed: 2
+--- !u!114 &615095335482527984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7874005135172422559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff72c713384ec4499a0279c5c43d1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  minDistance: 1
+  player: {fileID: 0}
