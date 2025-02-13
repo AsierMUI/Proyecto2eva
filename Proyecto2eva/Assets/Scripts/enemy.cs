@@ -45,7 +45,7 @@ public class enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
 
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(5);
             gameObject.SetActive(false);
         }
     }
