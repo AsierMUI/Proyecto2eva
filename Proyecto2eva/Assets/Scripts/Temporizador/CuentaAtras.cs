@@ -21,12 +21,12 @@ public class CuentaAtras : MonoBehaviour
 
         while (timeLeft > 0)
         {
-            timerText.text = "Tiempo Restante: " + Mathf.Ceil(timeLeft).ToString();
+            timerText.text = "Time left: " + Mathf.Ceil(timeLeft).ToString();
             yield return new WaitForSeconds(1f);
             timeLeft--;
         }
 
-        timerText.text = "¡Se ha acabado el tiempo!";
+        timerText.text = "¡Time's up!";
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Muerte");
     }
