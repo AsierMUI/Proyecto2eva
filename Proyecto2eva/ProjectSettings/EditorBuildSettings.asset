@@ -13,19 +13,19 @@ EditorBuildSettings:
     guid: b4bd2793b16608546906909eb6aa6a66
   - enabled: 1
     path: Assets/Scenes/Lvl2Asier.unity
-    guid: c3a0d99f934660d488b7f82270313079
+    guid: ef815b52ea73044438925f79b86c6bbe
   - enabled: 1
     path: Assets/Scenes/Lvl3Asier.unity
-    guid: 8cbca1e777e419844b3b96640d0b3584
+    guid: c7fed95e781b01648b9010afec47c9a7
   - enabled: 1
-    path: Assets/Scenes/Lvl1izan.unity
-    guid: 514da84398b0ca04a8a5cdf8463873b2
+    path: Assets/Scenes/Lvl1Izan.unity
+    guid: 632c5f080dcce3a47b76ab7a9a23603b
   - enabled: 1
     path: Assets/Scenes/Lvl2Izan.unity
-    guid: 397d3a734e96ae64a85e260ec3171023
+    guid: 667865d73bca1d149bd14aca60316c64
   - enabled: 1
     path: Assets/Scenes/Lvl3Izan.unity
-    guid: ceede9d6f55b8414b8a5ce5a51836891
+    guid: 9f4128714eed0bc41a8e9fb23b74cbdd
   - enabled: 1
     path: Assets/Scenes/Muerte.unity
     guid: bfb2b42c02534bd41becd094e3e01167
